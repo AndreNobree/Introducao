@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="André Nobre">
+	<meta name="description" content="Meu Perfil/Currículo com HTML e CSS"><!--descrição da página que você quer mostrar-->
+
+	<title>Perfil</title>
+
+	<link rel="icon" href="https://app.rocketseat.com.br/favicon.png"/> <!--icone na aba-->
+	<!--OU  <link rel="shortcut icon" type="imagex/png" href="favicon.ico">  -->  <!--icone na aba-->
+
+	<style type="text/css">
+		body{
+			margin:  0;
+			padding: 0;
+			font-family: sans-serif;
+			background: #191970;
+			background: url("./imagens/fundo_neon.jpg") no-repeat;
+		}
+		.box{
+			width: 1000px;
+			height: 600px;
+			padding: 50px;
+			background: #1C1C1C;
+			border-radius: 10px;
+			margin: auto;
+			margin-top: 2%;
+			display: block;
+			box-shadow: 3px 3px 3px 3px black;
+		}
+		.box h2{
+			color: white;
+			text-align: center;
+		}
+		#tab{
+			background: #20B2AA;
+			width: 250px;
+			height: 500px;
+			border-radius: 12px;
+			float: left; /*colocar isso pra outro bloco n blocar em uma tag dentro de uma box*/
+			display: inline-block;
+		}
+		#tab h3{
+			text-align: center;
+			color: white;
+		}
+		#tab ul{
+			color: white;
+			left: 10px;
+		}
+		#intro{
+			background: #008B8B;
+			width: 680px;
+			height: 135px;
+			margin-left: 60px;
+			border-radius: 12px;
+			display: inline-block;
+		}
+		#intro h4{
+			margin-left: 30px;	
+			margin-right: 30px;
+			margin-bottom: 10px;
+			color: white;
+			font-family:candara;
+		}
+		#exp{
+			display: inline-block;
+			width: 680px;
+			margin-left: 60px;
+			margin-top: 20px;
+			border-radius: 12px;
+			background: #008080;
+		}
+		#exp h3{
+			color: white;
+			text-align: center;
+		}
+		#exp h4{
+			color: white;
+			margin-left: 30px;
+		}
+		#exp p{
+			color: white;
+			margin-left: 30px;
+		}
+		#ico{
+			display: inline-block;
+			margin-left: 175px;
+			margin-top: 20px;
+		}
+	</style>
+
+</head>
+<body>
+
+	<form class="box" action="index.html" method="post">
+		<h2>André Felipe Lima Nobre</h2>	
+		<br>	
+		<br>
+		<div id="tab">
+			<h3>Conhecimentos:</h3>
+			<br>
+			<ul>- HTML</ul>
+			<ul>- CSS</ul>
+			<ul>- JavaScript</ul>
+			<ul>- Bootstrap</ul>
+			<ul>- Node.JS</ul>
+			<ul>- Python</ul>
+			<ul>- Java</ul>
+			<ul>- C++</ul>
+			<ul>- MySQL</ul>
+			<ul>- Pacote Office</ul>
+		</div>
+		
+		<div id="intro">
+			<h4><i>Sou estudante de Análise e desenvolvimento de sistemas e eu amo programar, me identifico mais com a área de desenvolvimento web, mas também tenho interesse em desenvolvimento Mobile... <br>Procuro por vagas de desenvolvimento afim de aprimorar minhas habilidades e contribuindo também com o avanço da empresa.</i></h4>	
+		</div>
+
+		<div id="exp">
+			<h3>Experiência:</h3>
+			<h4>- ADTSA - Divisão de Concessionárias</h4>
+			<p><b>Cargo:</b> Assistente de TI</p>
+			<p><b>Período:</b> 06/2021 até Atual</p>
+			<p><b>Atividades:</b> Manutenção de PC's, abertura/atendimento de chamados, instalação de softwares/sistema operacional de acordo com a empresa, suporte aos empregados na empresa.</p>
+		</div>
+
+		<div id="ico">
+			<p><img src="./imagens/html5.svg"><img src="./imagens/css3.svg"><img src="./imagens/javascript.svg"><img src="./imagens/bootstrap.svg"><img src="./imagens/node.svg"><img src="./imagens/python.svg"><img src="./imagens/java.svg"><img src="./imagens/cplusplus.svg"><img src="./imagens/mysql.svg"></p>
+		</div>
+
+	</form>
+
+</body>
+</html>
